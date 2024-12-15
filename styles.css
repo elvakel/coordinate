@@ -29,9 +29,11 @@ body {
     font-size: 28px;
     text-align: center;
     margin: 10px;
-    border: none;
     border-radius: 5px;
+    border: 4px solid transparent; /* Default transparent border */
     color: #fff;
+    background-color: rgba(255, 255, 255, 0.2); /* Default semi-transparent background */
+}
 }
  .input-box::placeholder {
     color: #fff;
