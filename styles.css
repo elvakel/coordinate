@@ -30,26 +30,26 @@ body {
     text-align: center;
     margin: 10px;
     border-radius: 5px;
-    border: 4px;
-    color: #fff;
+    border: 3px solid;
+    color: #000000;
 }
-}
+
  .input-box::placeholder {
     color: #fff;
 }
 .red {
-    background-color: rgba(255, 0, 0, 0.5); /* Red semi-transparent */
-    border-color: #FF0000; /* Solid red border */
+    background-color: rgba(255, 0, 0, 0.4); /* Red semi-transparent */
+    border-color: rgba(255, 0, 0, 1); /* Solid red border */
 }
 
 .blue {
-    background-color: rgba(0, 0, 255, 0.5); /* Blue semi-transparent */
-    border-color: #0000FF; /* Solid blue border */
+    background-color: rgba(0, 0, 255, 0.4); /* Blue semi-transparent */
+    border-color: rgba(0, 0, 255, 1); /* Solid blue border */
 }
 
 .green {
-    background-color: rgba(0, 255, 0, 0.5); /* Green semi-transparent */
-    border-color: #00FF00; /* Solid green border */
+    background-color: rgba(0, 255, 0, 0.4); /* Green semi-transparent */
+    border-color: rgba(0, 255, 0, 1); /* Solid green border */
 }
 .hint {
     font-size: 20px;
