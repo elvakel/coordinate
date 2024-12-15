@@ -38,9 +38,20 @@ body {
  .input-box::placeholder {
     color: #fff;
 }
-.red { background: #FF0000; }
-.blue { background: #0000FF; }
-.green { background: #00FF00; }
+.red {
+    background-color: rgba(255, 0, 0, 0.5); /* Red semi-transparent */
+    border-color: #FF0000; /* Solid red border */
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.5); /* Blue semi-transparent */
+    border-color: #0000FF; /* Solid blue border */
+}
+
+.green {
+    background-color: rgba(0, 255, 0, 0.5); /* Green semi-transparent */
+    border-color: #00FF00; /* Solid green border */
+}
 .hint {
     font-size: 20px;
     color: #d3dfff;
